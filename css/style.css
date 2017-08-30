@@ -1,0 +1,365 @@
+body {
+	overflow-x: hidden;
+}
+.dinImg{
+	//background: url(../images/burgermini.jpg ) no-repeat center  fixed / cover;
+	//height: auto;
+	//width: 100%;
+}
+body{
+	font-family: 'Cutive', serif;
+}
+h1{
+	text-align: center;
+}
+h2 {
+    padding-top: 30px;
+		font-weight: bold;
+}
+
+h2:after{
+	    content: " ";
+    display: block;
+    height: 1px;
+    background: #775050;
+    width: 100px;
+    margin: 26px auto;
+}
+h4{
+	font-weight: bold;
+}
+.navbar{
+	    background: #150A03;
+    border-bottom-color: #8e0000;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand {
+
+    color: #bb0e0e;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-align: center;
+}
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #bb0e0e;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+  .navbar-default .navbar-nav>.active>a:hover{
+		background: #150A03;
+color: #cc8e13;
+transition: .5s;
+
+}
+.navbar-default .navbar-brand:focus,
+ .navbar-default .navbar-brand:hover {
+	 color: #bb0e0e;
+ }
+.navbar-default .navbar-collapse{
+	border: none;
+	 width: 90%;
+	}
+
+.intro{
+    height: auto;
+    text-align: center;
+    background: url(../images/crepe.jpg ) no-repeat center  fixed / cover;
+    height:600px;
+    width: 100%;
+    color: #fff;
+    text-shadow: 5px 5px 10px black;
+
+}
+.welcome {
+	display: block;
+	background: rgba(51, 14, 14, 0.75);
+    padding: 15px;
+    border-radius: 20px;
+		margin-top: 235px;
+}
+.welcome h1 {
+	display: none;
+}
+.welcome a{
+	display: none;
+}
+.wineimg,
+.introimg{
+	width: 100%;
+}
+.about{
+	//background: #fff;
+
+}
+.abtDisplay img{
+	margin: auto;
+margin-bottom: 25px;
+}
+.abtDisplay2 img{
+	height: 476px;
+}
+
+.abtTxt{
+	display: inline-block;
+	padding: 60px;
+line-height: 3;
+border-radius: 10px;
+box-shadow: 0px 10px 10px #380505;
+color: #fff;
+    background: #611616;
+}
+.hours{
+	padding: 5px 0;
+margin-bottom: 35px;
+	border-radius: 10px;
+//box-shadow: 0px 10px 10px #380505;
+border-bottom: 6px solid #380505;
+color: #fff;
+background: #611616;
+}
+.abtTxt:after{
+	content: " ";
+display: block;
+height: 1px;
+background: #fff;
+width: 100px;
+margin: 26px auto;
+
+}
+
+.btn {
+	width: 300px;
+	font-size: 20px;
+color: #e01d1d;
+margin-top: 20px;
+text-shadow: none;
+padding: 5px;
+background-color: #611616;
+border-radius: 10px;
+border: 1px solid #611616;
+border-bottom: 4px solid #4e0303;
+}
+.btn:hover{
+	background: #4e0303;
+	border-color:  #611a1a;
+	color: #e01d1d;
+//	transition: 1s;
+}
+.btn.active.focus, .btn.active:focus, .btn.active:hover, .btn:active.focus, .btn:active:focus, .btn:active:hover, .open>.dropdown-toggle.btn.focus, .open>.dropdown-toggle.btn:focus, .open>.dropdown-toggle.btn:hover {
+    color:#e01d1d;
+    background-color:  #611616;
+    border-color: #4e0303;
+		transition: 1s;
+}
+
+.menu {
+	display: inline-block;
+	padding: 10px;
+background: #f3eddc;
+border-radius: 20px;
+width: 100%;
+height: 1100px;
+border-bottom: 8px solid #380505;
+color: #775050;
+}
+.dinnerimg {
+    width: 100%;
+}
+
+.about{
+
+border-top: 30px solid #270202;
+}
+
+.dinner,
+.wine{
+
+border-top: 15px solid #270202;
+}
+.about,
+.dinner,
+.wine,
+.contact {
+	       background: #4e0303;
+padding-bottom: 80px;
+
+}
+.contact{
+	padding-top: 40px;
+	    border-top: 2px solid red;
+	background: #2f0d0d;
+height: initial;
+color: #fff;
+}
+footer{
+	text-align: center;
+	padding: 30px 0px;
+background: #2f0d0d;
+color: #775050;
+font-size: 12px;
+}
+footer a {
+	color: #775050;
+}
+
+.dinner,
+.wine h2 {
+	    text-align: center;
+}
+.dinImg{
+	height: 200px;
+	background: url(../images/crepe.jpg ) no-repeat center center fixed;
+}
+.about h1,
+.dinner h1,
+.wine h1,
+.contact h1{
+	height: 60px;
+   padding: 40px 0;
+color: #bb0e0e;
+    text-shadow: 3px 3px 1px #270202;
+border-bottom: 6px solid #270202;
+margin-bottom: 20px;
+}
+
+/*{
+	width: 257px;
+    margin: 22px auto;
+    padding: 15px 0;
+    font-weight: bold;
+    background: #f7f6f4;
+    border: 6px solid black;
+    border-radius: 10px;
+    /* background: url(../images/burger.jpg) no-repeat center;
+} */
+.menu ul {
+    list-style-type: none;
+    padding: 12px 35px;
+}
+li {
+    padding-bottom: 10px;
+}
+span:before{
+	   content: " ";
+    display: inline-block;
+    height: 1px;
+    border-bottom:2px dotted  #2b1d1d;
+    width: 100px;
+    margin: 26px auto;
+}
+button.navbar-toggle{
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 0;
+	width: 50px;
+	height: 45px;
+	text-align: center;
+	color: #bb0e0e;
+	background: #4e0303;
+	border: 1px solid #bb0e0e !important;
+	padding: 0;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: inherit;
+}
+.wine {
+background-image: url("images/wine.jpg");
+background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: auto;
+}
+.wineimg{
+
+}
+.location{
+	padding-bottom: 20px;
+	line-height: 2;
+}
+@media  screen and (max-width:768px){
+	.navbar-header.page-scroll{
+		padding-bottom: 20px;
+	}
+	.navbar-default .navbar-brand {
+		margin-top: 10px;
+	}
+	.welcome{
+		    margin-top: 190px;
+
+	}
+
+	.btn {
+		width: 100%;
+	}
+	.menu{
+		width:100%;
+		height: auto;
+		margin-top: 10px;
+	}
+	.navbar-default .navbar-brand {
+    width: 70%;
+//		padding: 10px 15px;
+	}
+	.abtTxt {
+		padding: 25px;
+		font-size: 12px;
+	}
+	.abtDisplay {
+		display: block;
+	}
+	.abtDisplay2{
+		display: none !important;
+	}
+	.dinGallery img:not(:last-child) {
+		display: none;
+	}
+	.dinGallery img:last-child{
+		width:100%;
+	}
+	.dinGallery img {
+		//display: none;
+	}
+	iframe {
+		height:250px;
+		padding: 0;
+	}
+
+}
+@media (min-width: 768px){
+
+	.navbar-default .navbar-brand {
+		margin-top: 0;
+	}
+.navbar-nav {
+	float: right;
+}
+.abtTxt{
+padding-bottom: 20px;
+	line-height: 2;
+}
+.abtDisplay {
+		display: none;
+	}
+	.abtDisplay2{
+		display: block !important;
+	}
+	.about h1,
+	.dinner h1,
+	.wine h1{
+		padding: 0;
+	    margin: 85px 0;
+
+}
+.dinGallery img{
+	width: 33% !important;
+	display: inline-block !important;
+}
