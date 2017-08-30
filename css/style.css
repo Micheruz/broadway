@@ -203,14 +203,13 @@ height: initial;
 color: #fff;
 }
 footer{
-	position: relative;
 	text-align: center;
 	padding: 30px 0px;
 	width: 100%;
 background: #2f0d0d;
 color: #775050;
 font-size: 12px;
-margin-top: -150px;  /* negative value of footer height */
+margin-top: -50px;  /* negative value of footer height */
 	 height: 150px;
 	 clear: both;
 }
