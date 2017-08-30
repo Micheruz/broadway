@@ -65,7 +65,6 @@ transition: .5s;
  }
 .navbar-default .navbar-collapse{
 	border: none;
-	 width: 90%;
 	}
 
 .intro{
@@ -292,10 +291,14 @@ background-repeat: no-repeat;
 	.navbar-default .navbar-brand {
 		margin-top: 10px;
 	}
+	.navbar-default .navbar-collapse{
+				 width: 90%;
+		}
 	.welcome{
 		    margin-top: 190px;
 
 	}
+
 
 	.btn {
 		width: 100%;
