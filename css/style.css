@@ -341,7 +341,7 @@ background-repeat: no-repeat;
 }
 @media (min-width: 768px){
 	.navbar-default .navbar-collapse{
-				 width: 90%;
+				 width: 95%;
 		}
 	.navbar-default .navbar-brand {
 		margin-top: 0;
