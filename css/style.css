@@ -203,6 +203,7 @@ height: initial;
 color: #fff;
 }
 footer{
+	position: relative;
 	text-align: center;
 	padding: 30px 0px;
 	height: 125px;
