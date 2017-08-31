@@ -185,58 +185,33 @@ border-top: 15px solid #270202;
 }
 .about,
 .dinner,
-.wine,
-.contact {
+.wine {
 	       background: #4e0303;
 padding-bottom: 80px;
 
 }
 .contact{
 	padding-top: 40px;
-	padding-bottom: 150px;
 	    border-top: 2px solid red;
 	background: #2f0d0d;
-height: initial;
+height: auto;
 color: #fff;
 
 }
-footer{
-	position: absolute;
-	display: block;
-	position: relative;
-	// margin-top: 0px;  /* negative value of footer height */
+.footer{
 	 height: 150px;
-	 clear: both;
+
 	text-align: center;
-	padding: 30px 0px;
+	padding-top: 70px;
 background: #2f0d0d;
 color: #775050;
 font-size: 12px;
 width: 100%;
 }
-footer a {
+.footer a {
 	color: #775050;
 }
 
-/* CLEAR FIX */
-.contact:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-.contact {
-    display: inline-block;
-}
-/* Hides from IE-mac \*/
-* html .contact {
-    height: 1%;
-}
-.contact {
-    display: block;
-}
-/* End hide from IE-mac */
 
 .dinner,
 .wine h2 {
