@@ -3,6 +3,7 @@ body {
 }
 body{
 	font-family: 'Cutive', serif;
+	//padding-bottom: 150px;
 }
 h1{
 	text-align: center;
@@ -197,10 +198,13 @@ padding-bottom: 80px;
 	background: #2f0d0d;
 height: initial;
 color: #fff;
+
 }
 footer{
+	position: absolute;
+	display: block;
 	position: relative;
-	 margin-top: -150px;  /* negative value of footer height */
+	// margin-top: 0px;  /* negative value of footer height */
 	 height: 150px;
 	 clear: both;
 	text-align: center;
@@ -345,6 +349,7 @@ background-repeat: no-repeat;
 		//display: none;
 	}
 	iframe {
+		display: block;
 		height:250px;
 		padding: 0;
 	}
